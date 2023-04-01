@@ -54,11 +54,11 @@ function Coin() {
                                                 {coin.current_price}
                                             </td>
                                             {coin.market_cap_change_percentage_24h > 0 ? (
-                                                <td className='red'>
+                                                <td className='green'>
                                                     {coin.market_cap_change_percentage_24h.toFixed(2)}%
                                                 </td>
                                             ) : (
-                                                <td className='green'>
+                                                <td className='red'>
                                                     {coin.market_cap_change_percentage_24h.toFixed(2)}
                                                 </td>
                                             )}
